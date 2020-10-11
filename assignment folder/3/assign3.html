@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment 3</title>
+    <link rel="stylesheet" href="assign3.css">
+</head>
+
+<body>
+    <DIV class="main">
+        <form action="">
+            <div>
+                <h4 class="head"> Step 1: Your Details</h4>
+                <div class="border_box">
+                    <label class="lab" for="name">Name</label>
+                    <input class="inp" type="text" name="name" placeholder="First and last name" id="">
+                </div>
+                <div class="border_box">
+                    <label class="lab" for="email">Email</label>
+                    <input class="inp" type="email" name="email" placeholder="example@domain.com" id="">
+                </div>
+                <div class="border_box">
+                    <label class="lab" for="phone">Phone</label>
+                    <input class="inp" type="tel" name="phone" placeholder="Eg. 111-222-22-22" id="">
+                </div>
+            </div>
+            <div>
+                <h4 class="head"> Step 2: Delivery address</h4>
+                <div class="add">
+                    <table>
+                        <tr>
+                            <td> <label class="ad_lab" for="address">Address</label></td>
+                            <td><textarea class="text_box" name="address" id="" cols="30" rows="5"></textarea></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="border_box">
+                    <label class="lab" for="post">Post code</label>
+                    <input class="inp" type="text" name="post" id="">
+
+                </div>
+                <div class="border_box">
+                    <label class="lab" for="country">Country</label>
+                    <input class="inp" type="text" name="country" id="">
+                </div>
+
+
+            </div>
+
+            <div>
+                <h4 class="head">Step 3: Card details</h4>
+                <div class="border_box" style="height: 70px;">
+                    <table>
+                        <tr>
+                            <td><label class="lab" for="card">Card type</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="visa" id="">
+                                <label class="lab" for="Visa">VISA</label>
+                                <input type="radio" name="AmEx" id="">
+                                <label class="lab" for="AmEx">AmEx</label>
+                                <input type="radio" name="Master" id="">
+                                <label class="lab" for="Master">Mastercard</label>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="border_box">
+                    <label class="lab" for="Card">Card number</label>
+                    <input class="inp" type="number" name="Card" id="">
+                </div>
+                <div class="border_box">
+                    <label class="lab" for="cardNme">Name on Card</label>
+                    <input class="inp" type="text" name="cardNme" placeholder="Exact name as on the card" id="">
+                </div>
+
+            </div>
+
+            <div class="sub_div">
+                <input class="sub" type="submit" value="BUY IT!" name="" id="">
+            </div>
+        </form>
+    </DIV>
+
+</body>
+
+</html>

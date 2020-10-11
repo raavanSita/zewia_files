@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    padding: 0px;
+   
+
+}
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(123, 123, 123);
+}
+.head{
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient( to bottom right, rgb(106, 106, 106), rgb(0, 0, 0));
+}
+
+
+.left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    color: white;
+    text-align: center;
+    
+   
+}
+   
+.right{
+    height: 100%;
+    width: 50%;
+    float: left;}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+li{
+    padding: 15px 20px ;
+    float: left;
+    color: white;
+    
+}
+li:hover:not(.active){
+    background-color: darkgoldenrod;
+}
+
+
+.body{
+    width: 100%;
+    height: 100%;
+    
+}
+.body div{
+    
+    width: 100%;
+    height: 400px;
+    
+    text-align: center;
+    position: relative;
+}
+img{
+    width: 100%;
+    height: 400px;
+    
+
+}
+
+.body h1  {
+    color: rgb(72, 72, 72);
+    position: absolute;;
+   
+
+}
+
+.body p{
+    color: rgb(255, 255, 255);
+    position: absolute;
+   
+}
+button{
+    position:absolute; top: 55%; left: 30%; width: 150px;height: 50px;
+    background-color:rgba(red, green, blue, alpha);
+    border-radius: 10px;
+    
+}
+
+
+button {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+button {
+   margin: 0px;
+   padding: 0px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   
+   border-radius: 10px;
+   display: block;
+   border: none;
+ }
+
+ button:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+.content{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(186, 186, 186);
+    padding-top: 40px;
+   
+   
+
+}
+
+.content div{
+    width: 30%;
+    height: 50%;
+    border: 0px;
+    
+    float: left;
+    
+}
+#icn{
+    
+    width: 30%;
+    height: 100%;
+    padding-top: 30px;
+    float: left;
+
+}
+#txt{
+    width:70%;
+    height: 100%;
+    
+    float: left;
+    
+}
+#icn img{
+    width: 80%;
+    height: 70%;
+}
+.content p{
+    padding-top: 40px;
+font-size: 13px;
+}
+
+.content h1{
+    padding-left: 80px;
+    margin: 0px;
+}

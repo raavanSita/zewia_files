@@ -1,0 +1,234 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+.main{
+    
+    
+    width: 100%;
+    height: 100%;
+}
+.head{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+    background-color: #ffff;
+
+}
+.leftH{
+    width: 50%;
+    height: 100%;
+    
+    float: left;
+    text-align: center;
+    color: rgb(68, 68, 68);
+}
+.leftH span{
+    color: rgb(0, 0, 0);
+}
+.rightH{
+    width: 50%;
+    height: 100%;
+   text-align: center;
+    float: left;
+}
+.rightH ul{
+    list-style: none;
+    padding:0px;
+    margin: 0px;
+    overflow: hidden;
+    
+}
+.rightH a{
+    text-decoration: none;
+    color: black;
+}
+.rightH a:active{
+    background-color: rgb(137, 66, 202);
+}
+.rightH li{
+    float: left;
+    padding: 20px 30px;
+    color: rgb(44, 44, 44);
+    
+}
+.body1{
+   
+    background-color: rgb(77, 77, 77);
+    width: 100%;
+    
+    height: 300px;
+    text-align: center;
+    float: left;
+    position: relative;
+
+    
+    
+}
+.body1 img{
+    width: 100%;
+    height: 100%;
+    opacity: 30%;
+    
+}
+.body1 h4 {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    color: white;
+    font-size: 40px;
+    font-family: monospace;
+}
+.body1 p {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+.body1 .sub{
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    width: 150px;
+
+
+}
+
+.sub{
+    height: 50px;
+    background-color: rgb(253, 132, 3);
+    border: rgb(82, 82, 82) solid 2px;
+    color: #ffff;
+    border-radius: 5px;
+}
+
+.sub:hover{
+    background-color: rgb(250, 0, 0);
+}
+
+.box{
+    width: auto;
+    height: 100%;
+    margin: 30px 140px;
+
+    float: left;
+    
+}
+.para{
+    width: 30%;
+    float: left;
+   padding: 50px 10px;
+    
+    
+}
+span{
+    color: white;
+}
+.body2{
+    width:97%;
+    height: 100px;
+    color: rgb(150, 139, 139);
+    background-color: rgb(29, 29, 29);
+    float: left;
+    
+}
+
+.image img {
+    border: 4px solid rgb(68, 68, 68);
+  border-radius: 4px;
+  
+  width: 250px;
+  height: 200px;
+  margin-right: 30px; 
+  
+  align-items: center;
+  float: left;
+}
+#w{
+    width: 100%;
+    height:auto;
+   
+    float: left;
+    
+}
+#w h4{padding: 10px;
+font-size: 20px;
+font-weight: lighter;
+color: grey;}
+
+#do{
+    padding-top: 14px;
+    float: left;
+}
+
+.body2 div h2{
+    width: 75%;
+    float: left;
+    
+    margin-top: 30px;
+    padding-left:50px;
+}
+#ss{
+    width: 150px;
+    margin-top: 20px;
+}
+
+.about{
+    width: 100%;
+    height: 100%;
+    
+    margin-top: 50px;
+    float: left;
+    
+}
+.about div{
+    width: 60%;
+    float: left;
+    align-items: center;
+   
+}
+ #msg{
+    border: 1px solid black;
+    
+    width: 30%;
+    height:auto;
+    text-align: center;
+    margin: 60px 10px;
+    padding: 50px 20px;
+ }
+
+ .empty{
+     width: 100%;
+     height:100px;
+     background-color: rgb(41, 41, 41) ;
+     float: left;
+ }
+
+ .about #ss{
+     border: 1px solid grey;
+ }
+
+ .about div li{
+     padding-right: 100px;
+
+ }
+ .about   h3{
+     font-family:Arial, Helvetica, sans-serif;
+     font-weight: lighter;
+     font-size: 1.5rem;
+ }
+
+ .para p{ color: grey;
+
+ }
+ .para H3{
+     color: rgb(53, 52, 52);
+ }
+
+
+ 
