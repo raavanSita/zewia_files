@@ -1,0 +1,376 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#back img{
+    position: absolute; 
+    width: 100%;
+    height: 900px;
+    transform: rotate(180deg);
+}
+.main{
+    
+    width: 100%;
+    height: 600px;
+    z-index: 1;
+    position: relative;
+}
+
+#nav{
+    
+    width: 100%;
+    height: 10%;
+    font-size: 40px;
+    color: white;
+    padding-left: 50px;
+
+}
+
+.b_box{
+    width: 90%;
+    height: 80%;
+    margin:80px;
+    
+    
+}
+
+.box1{
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+    overflow:hidden;
+    box-shadow: 1px 1px 15px rgb(87, 87, 87);
+}
+
+.box1 .head h1{
+    color: white;
+}
+.box1 div{
+    padding-top: 40px;
+}
+.box1 .head{
+    width: 100%;
+    height: 25%;
+    padding-top:10px;
+    background-image:linear-gradient(to right, rgb(233, 174, 85),rgb(255, 38, 0));
+    
+}
+
+.box1 .head div{
+    width: 100%;
+    height: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.box1 .head #icn{
+    width: 100%;
+    height: 10%;
+    float: left;
+    
+}
+.box1 .head #icn img{
+    width: 25px;
+    height: 25px;
+    padding-left: 10px;
+    margin-right: 20px;
+    filter: invert();
+}
+
+.box1 input{
+    border-bottom:  rgb(89, 89, 89) solid 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+
+    background: transparent;
+}
+.box1 form{
+    margin: 30px;
+}
+.box1 label{
+   margin-left: 230px;
+   font-size: 12px;
+   color: gray;
+  
+}
+
+.box1 #sub input{
+    background-color: grey;
+    width: 90px;
+    height: 35px;
+    border-radius: 20px;
+    float: left;
+    margin-top: 0px;
+}
+
+.box1 #sub label{
+    width: 160px;
+    
+    float: left;
+    margin-left: 68px;
+    margin-top: 10px;
+}
+.box1 a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+.box2{
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+    overflow:hidden;
+    box-shadow: 1px 1px 15px rgb(87, 87, 87);
+    margin-left: 65px;
+    
+}
+
+
+.box2 .head h1{
+    color: rgb(245, 20, 144);
+}
+.box2 div{
+    padding-top: 10px;
+}
+.box2 .head{
+    width: 100%;
+    height: 10%;
+    padding-top:10px;
+    
+}
+
+.box2 .head div{
+    width: 100%;
+    height: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.box2 #icn{
+    margin-top: 60px;
+    padding-left: 80px;
+    padding-top: 25px;
+    width: 100%;
+    height: 70px;
+    float: left;
+    background-color: rgb(109, 139, 170);
+    
+}
+.box2 #icn img{
+    width: 25px;
+    height: 25px;
+    padding-left: 30px;
+    filter: invert();
+    
+    
+    
+}
+
+.box2 input{
+    border-bottom:  rgb(89, 89, 89) solid 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+
+    background: transparent;
+}
+.box2 form{
+    margin: 30px;
+}
+.box2 #chk{
+    width: 100%;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box2 #chk label{
+   width: 50%;
+   font-size: 12px;
+   color: gray;
+   float: left;
+   margin-top: 18px;
+
+}
+.box2 #chk input{
+    width: 8%;
+    float: left;
+   
+    
+}
+
+.box2 #sub{
+    margin-top: 30px;
+}
+.box2 #sub input{
+    background-color:rgb(245, 20, 144);
+    width: 110px;
+    height: 35px;
+    border-radius: 20px;
+    float: left;
+    margin-top: 0px;
+}
+
+.box2 #sub label{
+    width: 190px;
+    font-size: 14px;
+    text-align: right;
+    float: left;
+    
+    margin-top: 10px;
+}
+.box2 a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(45, 159, 247);
+}
+
+
+
+
+
+
+
+
+
+
+.box3{
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+    overflow:hidden;
+    box-shadow: 1px 1px 15px rgb(87, 87, 87);
+    margin-left: 64px;
+    
+}
+
+
+
+.box3 .head h1{
+    color: rgb(245, 20, 144);
+}
+.box3 div{
+    padding-top: 10px;
+}
+.box3 .head{
+    width: 100%;
+    height: 10%;
+    padding-top:10px;
+    
+}
+
+.box3 .head div{
+    width: 100%;
+    height: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.box3 #icn{
+    margin-top: 10px;
+    padding-top: 25px;
+    width: 100%;
+    height: 70px;
+    float: left;
+    margin-left: 40px;
+    
+    
+}
+
+.box3 #icn div{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 15px -6px rgb(19, 105, 170);
+    width: 80px;
+    height: 30px;
+    margin-left: 20px;
+    float: left;
+    border-radius: 30px;
+    padding-left: 0px;    
+
+}
+.box3 #icn img{
+    width: 25px;
+    height: 25px;
+    padding-left: 30px;
+    filter: invert(58%) sepia(13%) saturate(3907%) hue-rotate(170deg) brightness(95%) contrast(90%);
+    
+    
+    
+    
+}
+.box3 form label{
+    padding-left: 230px;
+    color: rgb(45, 159, 247);
+   font-size: 12px;
+}
+
+.box3 input{
+    border-bottom:  rgb(89, 89, 89) solid 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+
+    background: transparent;
+}
+.box3 form{
+    margin: 30px;
+}
+
+
+.box3 #sub{
+    margin-top: 50px;
+}
+.box3 #sub input{
+    background-image: linear-gradient(to right, rgb(0, 229, 255) , rgb(0, 51, 255));
+    width: 98%;
+    height: 35px;
+    border-radius: 20px;
+    float: left;
+    margin-top: 0px;
+    color: white;
+}
+
+.box3 #sub label{
+    width: 190px;
+    font-size: 14px;
+    padding-left: 70px;
+    float: left;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
+.box3 a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(45, 159, 247);
+}
+
