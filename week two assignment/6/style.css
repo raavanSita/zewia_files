@@ -1,0 +1,961 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(198, 212, 223);
+}
+
+
+.main{
+    width: 100%;
+    height: 2000px;
+   
+    float: left;
+}
+
+.T_head{
+    width: 100%;
+    height: 10%;
+    margin: 0px;
+    text-align: center;
+    float: left;
+    
+}
+
+.T_head h1{
+    font-weight: lighter;
+    color: rgb(36, 105, 158) ;
+
+}
+.T_head p{
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 5px;
+    color: rgb(36, 105, 158) ;
+}
+
+.b_box {
+    width: 90%;
+    height: 100%;
+   
+    margin: 0px 80px;
+    
+}
+
+.box1{
+    width: 40%;
+    height: 40%;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+    overflow:hidden;
+    box-shadow: 1px 1px 15px rgb(87, 87, 87);
+}
+
+
+/*      common head       */
+span{
+    font-size: 20px;
+    
+}
+.head{
+    width: 100%;
+    height: 70px;
+    
+}
+.head div{
+    width: 15%;
+    float: left;
+    height: 10px;
+    margin: 0px;
+    padding-top: 20px;
+    
+}
+button{
+    background-color:transparent;
+    border-style: none;
+    margin-left: 10px;
+    font-size: 15px;
+
+}
+button :active{
+    opacity: 30%;
+    
+}
+
+.head h4{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    color: rgb(114, 112, 112);
+}
+.head #chk{
+    width: 70%;
+    margin: 0px;
+    padding-top: 0px;
+}
+ /* panel */
+.box1 .panel {
+    width: 90%;
+    height: 50px;
+    
+    float: left;
+    padding-left: 50px;
+    padding-top: 10px;
+    position: relative;
+
+}
+
+.box1 .panel #one  {
+    background-color: rgb(187, 181, 181);
+    width:30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50px;
+    padding-left: 0px;
+    top: 10%;
+}
+
+
+.box1 .panel #two  {
+    background-color:  rgb(187, 181, 181);
+    width:30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50px;
+    padding-left: 0px;
+    top: 10%;
+    left: 46%;
+}
+
+
+.box1 .panel #three {
+    background-color: rgb(187, 181, 181);
+    width:30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50px;
+    padding-left: 0px;
+    top: 10%;
+    left: 86%;
+}
+
+
+.box1 .panel #float {
+    background-color: rgb(0, 119, 247);
+    width:15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50px;
+    padding-left: 0px;
+    top: 22.4%;
+    left: 11.1%;
+}
+
+
+
+
+
+
+
+
+.box1 #hr1{
+    
+    width: 40%;
+    float: left;
+    margin-left: 10px;
+    border-top: 3px solid rgb(182, 182, 182);
+}
+
+
+.box1 #hr2{
+    
+    width: 40%;
+    float: left;
+    margin-left: 10px;
+    border-top: 3px solid rgb(182, 182, 182);
+}
+
+.box1 .form{
+    width: 100%;
+    height: 50%;
+}
+.box1 .form input{
+    width: 80%;
+    height: 50px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 52px;
+    border-radius: 10px;
+    border: rgb(220, 212, 212) 1px solid;
+}
+#state{
+    width: 36%;
+    
+float: left;}
+
+#city{
+    width: 36%;
+    margin-left: 17px;
+float: left;}
+
+input:placeholder-shown{
+    font-size: 20px;
+padding-left: 20px;
+font-weight: 300;
+opacity: 0.5;
+}
+
+
+
+.box1 .form2{
+    
+    width: 100%;
+    height: 50px;
+}
+.form2 div{
+    width: 20%;
+    height: 10px;
+    float: left;
+}
+
+
+.box1 .form2 #cnl{
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 400;
+    height: 50px;
+    margin-top: 100px;
+    float: left;
+    margin-left: 20px;
+    border-radius: 50px;
+    border: rgb(228, 228, 228) 1.5px solid;
+}
+
+.box1 .form2 #nxt{
+    width: 35%;
+    background-color: rgb(45, 161, 250);
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    height: 50px;
+    margin-top: 100px;
+    float: left;
+    
+    border-radius: 50px;
+    border-style: none;
+}
+
+
+
+.form2 input:active{
+    opacity: 50%;
+}
+
+/* box2*/
+
+.box2{
+    width: 40%;
+    height: 40%;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+    overflow:hidden;
+    box-shadow: 1px 1px 15px rgb(87, 87, 87);
+    margin-left: 200px;
+}
+
+
+/*      common head       */
+span{
+    font-size: 20px;
+    
+}
+.head{
+    width: 100%;
+    height: 70px;
+    
+}
+.head div{
+    width: 15%;
+    float: left;
+    height: 10px;
+    margin: 0px;
+    padding-top: 20px;
+    
+}
+button{
+    background-color:transparent;
+    border-style: none;
+    margin-left: 10px;
+    font-size: 15px;
+    
+
+}
+.head h4{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    color: rgb(114, 112, 112);
+}
+.head #chk{
+    width: 70%;
+    margin: 0px;
+    padding-top: 0px;
+}
+ /* panel */
+.box2 .panel {
+    width: 90%;
+    height: 50px;
+    
+    float: left;
+    padding-left: 50px;
+    padding-top: 10px;
+    position: relative;
+
+}
+
+.box2 .panel #one  {
+    background-color: rgb(0, 119, 247);
+    width:30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50px;
+    padding-left: 0px;
+    top: 10%;
+}
+
+
+.box2 .panel #two  {
+    background-color:  rgb(187, 181, 181);
+    width:30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50px;
+    padding-left: 0px;
+    top: 10%;
+    left: 46%;
+}
+
+
+.box2 .panel #three {
+    background-color: rgb(187, 181, 181);
+    width:30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50px;
+    padding-left: 0px;
+    top: 10%;
+    left: 86%;
+}
+
+
+.box2 .panel #float {
+    background-color: rgb(0, 119, 247);
+    width:15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50px;
+    padding-left: 0px;
+    top: 22.8%;
+    left: 47.4%;
+}
+
+
+.box2 #hr1{
+    
+    width: 40%;
+    float: left;
+    margin-left: 10px;
+    border-top: 3px solid rgb(0, 119, 247);
+}
+
+
+.box2 #hr2{
+    
+    width: 40%;
+    float: left;
+    margin-left: 10px;
+    border-top: 3px solid rgb(182, 182, 182);
+}
+
+.box2 .icon{
+    width: 80%;
+    height: 200px;
+    padding-left: 40px;
+    
+}
+.box2 .icon a{
+    float: left;
+    width: 120px;
+    height: 90px;
+    border: rgb(225, 221, 221) solid 1.5px;
+    
+    margin-left: 15px;
+    padding: 0px;
+   
+}
+
+.box2 .icon div:hover{
+    box-shadow: 1px 1px 6px rgb(0, 166, 255);
+}
+.box2 .icon img{
+    width: 100px;
+    height: 90px;
+    margin: 0px;
+    padding-left: 10px;
+    
+    
+   
+}
+.box2 .form{
+    width: 100%;
+    height: 50%;
+}
+.box2 .form input{
+    width: 80%;
+    height: 50px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 52px;
+    border-radius: 10px;
+    border: rgb(220, 212, 212) 1px solid;
+}
+#state{
+    width: 36%;
+    
+float: left;}
+
+#city{
+    width: 36%;
+    margin-left: 17px;
+float: left;}
+
+input:placeholder-shown{
+    font-size: 20px;
+padding-left: 20px;
+font-weight: 300;
+opacity: 0.5;
+}
+
+
+
+.box2 .form2{
+    
+    width: 100%;
+    height: 50px;
+}
+.form2 div{
+    width: 20%;
+    height: 10px;
+    float: left;
+}
+
+
+.box2 .form2 #cnl{
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 400;
+    height: 50px;
+    margin-top: 40px;
+    float: left;
+    margin-left: 20px;
+    border-radius: 50px;
+    border: rgb(228, 228, 228) 1.5px solid;
+}
+
+.box2 .form2 #nxt{
+    width: 35%;
+    background-color: rgb(45, 161, 250);
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    height: 50px;
+    margin-top: 40px;
+    float: left;
+    
+    border-radius: 50px;
+    border-style: none;
+}
+
+
+/* box 3 */
+
+.box3{
+
+    width: 40%;
+    height: 40%;
+    float: left;
+    background-color: rgb(220, 220, 220);
+    border-radius: 10px;
+    margin-top: 50px;
+    position: relative;
+    box-shadow: 1px 1px 15px rgb(87, 87, 87);
+    overflow: hidden;
+    
+}
+
+
+/*      common head       */
+span{
+    font-size: 20px;
+    
+}
+.head{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+   
+    
+}
+.head div{
+    width: 15%;
+    float: left;
+    height: 10px;
+    margin: 0px;
+    padding-top: 20px;
+    
+}
+button{
+    background-color:transparent;
+    border-style: none;
+    margin-left: 10px;
+    font-size: 15px;
+    
+
+}
+.head h4{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    color: rgb(114, 112, 112);
+}
+.head #chk{
+    width: 70%;
+    margin: 0px;
+    padding-top: 0px;
+}
+ /* panel */
+.box3 .panel {
+    width: 90%;
+    height: 40px;
+    margin-bottom: 10px;
+    float: left;
+    padding-left: 50px;
+    padding-top: 10px;
+    position: relative;
+    background-color: white;
+
+}
+
+.box3 .panel #one  {
+    background-color: rgb(0, 119, 247);
+    width:30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50px;
+    padding-left: 0px;
+    top: 10%;
+}
+
+
+.box3 .panel #two  {
+    background-color: rgb(0, 119, 247);
+    width:30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50px;
+    padding-left: 0px;
+    top: 10%;
+    left: 46%;
+}
+
+
+.box3 .panel #three {
+    background-color: rgb(187, 181, 181);
+    width:30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50px;
+    padding-left: 0px;
+    top: 10%;
+    left: 86%;
+}
+
+
+.box3 .panel #float {
+    background-color: rgb(0, 119, 247);
+    width:15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50px;
+    padding-left: 0px;
+    top: 22.9%;
+    left: 87.4%;
+}
+
+
+
+
+
+
+
+.box3 #hr1{
+    
+    width: 40%;
+    float: left;
+    margin-left: 10px;
+    border-top: 3px solid rgb(0, 119, 247);
+}
+
+
+.box3 #hr2{
+    
+    width: 40%;
+    float: left;
+    margin-left: 10px;
+    border-top: 3px solid rgb(0, 119, 247);
+}
+
+/* table*/
+
+
+.box3 .items{
+    
+    width: 100%;
+    height: 100%;
+    overflow:scroll;
+   
+    
+    
+    
+    
+}
+
+.box3 .items p{
+    width: 90%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 100;
+}
+.box3 .cart{
+    
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 0px 15px;
+   
+}
+.box3 .delv{
+    
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-color: white;
+    padding: 0px 15px;
+    
+}
+.box3 .pay{
+    
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    background-color: white;
+    padding: 3px 15px;
+    
+    
+}
+.box3 .items table{
+    width: 90%;
+    height: 200px;
+    margin: 10px;
+    text-align: left;
+    
+    
+    
+}
+
+.box3 .cart th{
+    font-weight: bold;
+
+}
+
+.box3 .cart td{
+    padding: 10px 0px;
+}
+.box3 .pay td{
+    padding-bottom:100px ;
+}
+.box3 .delv th{
+    font-weight: bold;
+    width: 86%;
+    height: 1px;
+
+}
+
+.box3 .delv td{
+    font-weight:100;
+    width: 86%;
+    height: 1%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.box3 .pay th{
+    font-weight: bold;
+    width: 86%;
+    height: 1px;
+    
+
+}
+
+.box3 .pay td{
+    font-weight:100;
+    width: 86%;
+    height: 1px;
+    margin: 0px;
+    padding: 10px 0px;
+
+}
+.box3  #edit{
+    color: gray;
+}
+
+
+/* table eds*/
+
+.box3 .form2{
+    
+    width: 100%;
+    height: 50px;
+   margin: 0px;
+   
+   
+  
+}
+.form2 div{
+
+    width: 20%;
+    height: 10px;
+   
+
+}
+
+
+.box3 .form2 #cnl{
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 400;
+    height: 50px;
+    margin-top: 0px;
+    float: left;
+    margin-left: 20px;
+    border-radius: 50px;
+    border: rgb(228, 228, 228) 1.5px solid;
+    position: absolute;
+    left: 0%;
+    top: 90%;
+   
+    
+    
+    
+}
+
+.box3 .form2 #nxt{
+    width: 35%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    height: 50px;
+    margin-top: 0px;
+    float: left;
+    border-radius: 50px;
+    border-style: none;
+    position: absolute;
+    left: 55%;
+    top:90%;
+}
+
+/* box 4*/
+
+.box4{
+    width: 40%;
+    height: 40%;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+    overflow:hidden;
+    margin-left: 200px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 15px rgb(87, 87, 87);
+    position: relative;
+}
+
+
+/*      common head       */
+span{
+    font-size: 20px;
+    
+}
+.head{
+    width: 100%;
+    height: 70px;
+    
+}
+.head div{
+    width: 15%;
+    float: left;
+    height: 10px;
+    margin: 0px;
+    padding-top: 20px;
+    
+}
+button{
+    background-color:transparent;
+    border-style: none;
+    margin-left: 10px;
+    font-size: 15px;
+    
+
+}
+.head h4{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    color: rgb(114, 112, 112);
+}
+.head #chk{
+    width: 70%;
+    margin: 0px;
+    padding-top: 0px;
+}
+ /* panel */
+.box4 .panel {
+    width: 90%;
+    height: 50px;
+    
+    float: left;
+    padding-left: 50px;
+    padding-top: 10px;
+    position: relative;
+
+}
+
+.box4 .panel #one  {
+    background-color: rgb(0, 119, 247);
+    width:30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50px;
+    padding-left: 0px;
+    top: 10%;
+}
+
+
+.box4 .panel #two  {
+    background-color: rgb(0, 119, 247);
+    width:30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50px;
+    padding-left: 0px;
+    top: 10%;
+    left: 46%;
+}
+
+
+.box4 .panel #three {
+    background-color: rgb(0, 119, 247);
+    width:30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50px;
+    padding-left: 0px;
+    top: 10%;
+    left: 86%;
+}
+.box4 #hr1{
+    
+    width: 40%;
+    float: left;
+    margin-left: 10px;
+    border-top: 3px solid rgb(0, 119, 247);
+}
+
+
+.box4 #hr2{
+    
+    width: 40%;
+    float: left;
+    margin-left: 10px;
+    border-top: 3px solid rgb(0, 119, 247);
+}
+
+
+
+.box4 .form2{
+    
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    background-color: transparent;
+}
+.form2 div{
+    width: 20%;
+    height: 10px;
+    
+}
+
+.box4 .items{
+    
+    width: 100%;
+    height: 70%;
+    overflow:scroll;  
+    
+}
+.box4 .items img {
+   width: 70%;
+   height: 40%;
+   filter: invert(58%) sepia(13%) saturate(3907%) hue-rotate(170deg) brightness(95%) contrast(90%);
+}
+ .box4 .items div{
+     width: 100%;
+     height:auto;
+     text-align: center;
+     margin:0px;
+
+ }
+.box4 .items h3{
+   font-size: 30px;
+   margin: 0px;
+ }.box4 .items p{
+    font-size: 17px;
+    padding: 0px 70px;
+  }
+.box4 .form2 #nxt{
+    width: 85%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 400;
+    height: 50px;
+    margin-top: 0px;
+    float: left;
+    border-radius: 50px;
+    border: rgb(228, 228, 228) 1.5px solid;
+    position: absolute;
+    left: 8%;
+    top:90%;
+}
+
+.box4 .form2 #nxt :hover{
+    background-color: tomato;
+}
