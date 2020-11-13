@@ -1,0 +1,104 @@
+body {
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+nav{
+  background-color: rgb(53, 82, 82, 0.3);
+}
+#content {
+    /* The image used */
+    background-image: url(img/pexels-agung-pandit-wiguna-3401403.jpg);
+
+    /* Set a specific height */
+    min-height: 500px; 
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#content blockquote {
+  position: absolute;
+  top: 27%;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 2.3rem;
+ 
+}
+
+h1{
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+
+
+.blue{
+  color: rgb(55, 55, 182);
+  font-weight: 900;
+}
+.img3{
+  
+    /* The image used */
+    background-image:url(img/pexels-fauxels-3183183.jpg) ;
+
+    /* Set a specific height */
+    min-height: 300px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #icn img{ 
+  
+    width: 110px;
+    height: 110px;
+  }
+
+  .img6{
+  background-color: black;
+    /* The image used */
+    background-image:url(img/pexels-agung-pandit-wiguna-3401403.jpg) ;
+    padding-top: 4%;
+    /* Set a specific height */
+    min-height: 150px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ .stat img{
+   width: 550px;
+   height: 350px;
+ }
+
+ .img7{
+   background-image: url(img/pexels-pixabay-267447.jpg);
+   padding-top: 4%;
+   /* Set a specific height */
+   min-height: 150px; 
+ 
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ 

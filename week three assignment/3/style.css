@@ -1,0 +1,182 @@
+#icn img{
+    width: 20px;
+    height: 20px;
+  
+}
+#icn{
+    padding: 0px;
+    margin: 5px;
+}
+span{
+    font-weight: lighter;
+    font-family: monospace;
+}
+
+#icn a{
+    text-emphasis: none;
+    text-decoration: none;
+    color: black;
+}
+
+#brand{
+    width: 30px;
+    height: 30px;
+}
+
+
+#imgs {
+    height: 600px;
+    width: 100%;
+
+}
+#imgs img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+#top{
+    top: 15%;
+    left: 0%;
+
+}
+
+#cont {
+
+   top: 60%;
+   left: 40%;
+    width:300px;
+    height: fit-content;
+    
+    
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color:darkred;
+  }
+
+  hr{
+      width: 60%;
+      height: 1px;
+      background-color: rgb(199, 199, 199 .19);
+   
+  }
+
+  #product h1{
+    font-size: 2.5vw;
+  }
+  #product p{
+      font-size: 2vw;
+  }
+
+  #cer{
+      top: 5%;
+      left: 10%;
+  }
+
+  #facts div {
+      border-left: inherit;
+border-radius: 1px;
+border-image:linear-gradient(
+    to bottom ,
+    rgb(138, 138, 138), 
+    rgba(0, 0, 0, 0)) 1 100% ;
+  
+  }
+
+  #facts img{
+      width: 40px;
+      height: 40px;
+      filter: invert(20%) sepia(80%) saturate(9100%);
+  }
+  #facts h4{
+      color: red;
+  }
+
+  #form_img img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 100% 110%;
+  }
+  #form_img {
+    width: 100%;
+    height: 500px;
+    
+}
+
+#forms {
+    background-color: lightcoral;
+    height: 20rem;
+  top: 2rem;
+  
+}
+
+#forms input{
+    
+    height: 30px;
+    margin: 15px 3px;
+    width: 100%;
+}
+
+#testHead{
+    width: 300px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+ 
+}
+#testFoot{
+    width: 400px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.carousel-control-prev{
+    filter: invert();
+}
+.carousel-control-next{
+    filter: invert();
+}
+
+
+#tesImgs img{
+    width: 40%;
+    height: 50%;
+}
+ #test img{
+     width:300px;
+     height:300px;
+ }
+
+ #footer_img img {
+    width: 70px;
+    height: 70px;
+    
+}
+#footer_icon img{
+    height: 20px;
+    width: 20px;
+    filter: invert();
+    
+}
+
+.three td{
+    border: none;
+    color: white;
+}
+
+
+.four td{
+    border: none;
+    color: white;
+}

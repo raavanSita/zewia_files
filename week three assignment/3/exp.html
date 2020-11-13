@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v4.1.1">
+  <title>Carousel Template · Bootstrap</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <header>
+    <!-- nav panel -->
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar  justify-content-start col-2">
+
+          <nav class="navbar navbar-light  p-0 m-0">
+
+            <button class="navbar-toggler border-0 " type="button" data-toggle="collapse"
+              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <label class="pt-2" for="button">Menu</label>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Gallery <span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+
+
+            </div>
+          </nav>
+
+
+        </nav>
+        <nav class="col-6">
+          <div class="row">
+            <button class="btn" data-toggle="collapse" data-target="#demo" id="icn"><img
+                src="https://img.icons8.com/metro/50/000000/search.png" />Search</button>
+
+            <div id="demo" class="collapse">
+              <form class="form-inline ">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+
+              </form>
+            </div>
+
+            <div class="nav-item p-2" id="icn">
+              <a href=""> <img
+                  src="https://img.icons8.com/pastel-glyph/64/000000/shopping-cart--v2.png" /><span>eShop</span></a>
+            </div>
+            <div class="nav-item p-2" id="icn">
+              <a href=""> <img src="https://img.icons8.com/ios/64/000000/important-mail.png" />
+                <span>Contact</span></a>
+            </div>
+
+          </div>
+
+        </nav>
+
+
+        <!-- brand name -->
+        <nav class="navbar-light justify-content-end text-right col-4">
+          <a class="navbar-brand" href="#"> <img id="brand"
+              src="https://img.icons8.com/plasticine/100/000000/harry-potter.png" /><span>HARRY
+              POTTER</span></a>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+  <!-- slide -->
+  <main role="main">
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/pexels-ray-bilcliff-1526246.jpg" alt="">
+          <div class="container ">
+            <div class="carousel-caption text-right text-danger">
+              <h1 class="pl-5">Precision,</h1>
+              <h1 class="mr-5"><b> Aesthetics,</b></h1>
+              <h1 class="pl-5">Function</h1>
+              <div class="box bg-white text-danger ">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem et delectus soluta vero sed quas
+                  accusamus esse quae, deleniti dolorem!</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="carousel-item">
+         <img src="./img/pexels-chait-goli-1918290.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
+                metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+         <img src="./img/pexels-lucas-ianiak-4310574.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption text-right">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget
+                metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- product -->
+
+    <div class="container">
+      <div class="text-center col-12" id="product">
+        <h1 class="text-danger"> OUR PRODUCTS ARE THE RESULT OF INNOVATION</h1>
+        <hr>
+
+        <p class="lead">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, alias. Voluptatibus reprehenderit
+          similique ullam nam, laborum adipisci repellendus. Accusamus, ad!
+        </p>
+      </div>
+
+    </div>
+
+    <!-- image 2 -->
+
+    <div class="container-fluid position-relative" id="imgs">
+      <img src="./img/pexels-miguel-Ã¡-padriÃ±Ã¡n-3785927.jpg" alt="">
+      <div class="container position-absolute col-10 col-md-6 col-lg-4" id="cer">
+        <h1 class="text-danger">
+          Ceramic Implant
+        </h1>
+        <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fuga impedit a
+          quam, voluptas cum enim
+          beatae fugiat quaerat sequi?</p>
+
+        <button class="btn btn-danger text-white btn-lg border-1">READ MORE</button>
+      </div>
+
+    </div>
+
+
+    <!-- 5 facts -->
+
+
+    <div class="container  text-center">
+      <h1 class="mb-5  text-danger"><u> 5 Facts</u></h1>
+
+      <div class="row " id="facts">
+
+        <div class="col-4 col-md-3 col-lg-2 ml-4   ">
+          <img src="https://img.icons8.com/pastel-glyph/64/000000/pyramids.png" />
+          <h4>One</h4>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, saepe!</p>
+        </div>
+
+        <div class="col-4 col-md-3 col-lg-2 ml-4  ">
+          <img src="https://img.icons8.com/carbon-copy/100/000000/anubis.png" />
+          <h4>Two</h4>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, saepe!</p>
+        </div>
+
+        <div class="col-4 col-md-3 col-lg-2 ml-4  ">
+          <img src="https://img.icons8.com/ios/50/000000/ankh.png" />
+          <h4>Three</h4>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, saepe!</p>
+        </div>
+
+        <div class="col-4 col-md-3 col-lg-2 ml-4  ">
+          <img src="https://img.icons8.com/ios/50/000000/cossack--v1.png" />
+          <h4>Four</h4>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, saepe!</p>
+        </div>
+
+        <div class="col-4 col-md-3 col-lg-2 ml-4  ">
+          <img src="https://img.icons8.com/ios-glyphs/30/000000/ankh.png" />
+          <h4>Five</h4>
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, saepe!</p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- form -->
+
+    <div class="container-fluid position-relative col-12 d-flex justify-content-end" id="form_img">
+      <img src="./img/pexels-pixabay-221028.jpg" alt="">
+
+      <div class="forms position-absolute col-md-4 col-lg-3 col-sm-5 col-6" id="forms">
+
+        <form action="index.html">
+          <div class="row">
+            <div class=" col-12">
+              <input type="text" name="name" placeholder="name" id="">
+              <input type="calender" name="date" placeholder="Birthdate" id="">
+              <input type="email" name="email" placeholder="Email" id="">
+              <input type="tel" name="tel" placeholder="Phone" id="">
+              <input type="submit" name="name" id="sub">
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+
+    <!-- START THE FEATURETTES -->
+
+    <div class="container-fluid mt-4" >
+      <div class="text-center mb-5">
+        <h1 class="display-4">TESTIMONIAL</h1>
+      </div>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner align-self-middle" id="test">
+          <div class="carousel-item active">
+            <div class="row featurette">
+
+              <div class="col-5 col-md-4 order-md-2">
+                <img src="./img/pexels-pixabay-221028.jpg"
+                  class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                  height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+                  role="img" aria-label="Placeholder: 500x500">
+
+              </div>
+              <div class="col-7 col-md-6  order-md-2 border border-danger">
+                <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for
+                    yourself.</span>
+                </h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                  euismod
+                  semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac
+                  cursus
+                  commodo.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <div class="row featurette">
+
+              <div class="col-5 col-md-4 order-md-2">
+                <img src="./img/pexels-lucas-ianiak-4310574.jpg"
+                  class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                  height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+                  role="img" aria-label="Placeholder: 500x500">
+
+              </div>
+              <div class="col-7 col-md-6  order-md-2 border border-danger ">
+                <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for
+                    yourself.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                  euismod
+                  semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac
+                  cursus
+                  commodo.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="carousel-item">
+            <div class="row featurette">
+
+              <div class="col-5 col-md-4 order-md-2">
+                <img src="./img/pexels-sebastiaan-stam-1482476.jpg"
+                  class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                  height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false"
+                  role="img" aria-label="Placeholder: 500x500">
+
+              </div>
+              <div class="col-7 col-md-6  order-md-2 border border-danger ">
+                <h2 class="featurette-heading ">Oh yeah, it’s that good. <span class="text-muted">See for
+                    yourself.</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
+                  euismod
+                  semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac
+                  cursus
+                  commodo.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    </div><!-- /.container -->
+
+
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-1">
+        <h2 class="featurette-heading">WHO <span class="text-muted">ARE WE</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
+          semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
+          commodo.</p>
+      </div>
+      <div class="col-md-5 order-md-2">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yBvYcuNfFZo" frameborder="0"
+          
+          allowfullscreen autoplay=1 mute=1></iframe>
+
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="container-fluid bg-dark p-5">
+      <div class=" " id="footer">
+        <div class="container">
+            <div class="row">
+
+
+
+
+                <div class="one col-4 col-md-3">
+                   
+                    <div class="pb-1" id="footer_icon"><a href="https://www.facebook.com"><img
+                                src="https://img.icons8.com/windows/50/000000/facebook-f.png" /></a>
+                        <a href="https://twitter.com"><img
+                                src="https://img.icons8.com/android/32/000000/twitter.png" /></a>
+                        <a href="https://in.pinterest.com"> <img
+                                src="https://img.icons8.com/windows/32/000000/pinterest-p.png" /></a>
+                        <a href="https://www.instagram.com"> <img
+                                src="https://img.icons8.com/ios/50/000000/instagram-new.png" /></a>
+                    </div>
+                    <div class="pb-1 text-success pt-2">
+                        <p>robin@2019 . privacy policy</p>
+                    </div>
+                </div>
+
+
+                <div class="two col-8  col-md-4 text-center">
+                    <h5 class="pb-1 text-success">NEWSLETTER</h5>
+                    <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, quas!</p>
+                    <form class="mt-3" action="">
+                        <div class="input-group bg-success pl-1">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill mt-2"
+                                fill="white" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+                            </svg>
+                            <input id="email" type="text" class="form-control ml-1" name="email"
+                                placeholder="type your email">
+                            <div class="input-group-btn ">
+                                <button class="btn btn-sm" type="submit">
+                                    SUBSCRIBE
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="three col-6 col-md-3 text-left">
+                   
+                    <table class="table">
+
+<thead> <h5 class="pb-1 text-success ">CITIES</h5></thead>
+                        <tbody>
+                            <tr>
+
+                                <td>Mark</td>
+                                <td >Otto</td>
+
+                            </tr>
+                            <tr>
+
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="four col-6 col-md-2 text-right">
+                    <H5 class="pb-1 text-success">CATAGORIES</H5>
+                    <p class="text-light">
+                        <table class="table">
+                            <tr>
+                                <td>Automobile</td>
+                            </tr>
+                            <tr><td>Medical</td></tr>
+                            <tr><td>Bio medical</td></tr>
+                            <tr><td>PABLO</td></tr>
+                        </table>
+                       
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </footer>
+  </main>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

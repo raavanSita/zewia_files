@@ -1,0 +1,152 @@
+.Ticons img{
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    padding: 5px;
+    filter: invert(78%);
+}
+
+#logo img{
+    width: 100px;
+    height: 100px;
+}
+#logo{
+    height: 80px;
+}
+#head{
+    width: 100%;
+}
+
+#slide img{
+    height: 600px;
+}
+
+.head{
+    position: relative;
+}
+.head .text{
+    display:table;
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    left: 0%;
+    color: white;
+}
+
+#service img{
+width: 50PX;
+height: 50px;
+filter: invert();
+
+}
+#service a{
+    text-align: center;
+    
+}
+
+#service{
+    background: rgb(110, 214, 110);
+    overflow: hidden;
+}
+
+#why img{
+    width: 20px;
+    height: 20px;
+}
+
+#images img{
+    width: 200px;
+    height: 200px;
+}
+#con{
+    padding:100px 50px;
+}
+
+#getD{
+    width: 100%;
+    height: 150px;  
+    margin: 0px;
+    padding: 0px;
+}
+
+#getD h4{
+    top: 50%;
+    left: 10%;
+    color: white;
+    font-size: 3vw;
+    top: 35%;
+}
+
+#getD img{
+    filter: contrast(40%) brightness(100%);
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+   object-position:0% 0%;
+}
+#getD button{
+    top: 38%;
+    left: 70%;
+    
+}
+
+#test {
+    overflow: hidden;
+}
+#test img{
+    width: auto;
+    height: 250px;
+}
+
+.card{
+    border: none;
+}
+
+#right hr{
+    padding: 5px;
+    margin:0px;
+}
+#right h5{
+    padding-top: 20px;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 200px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 200px;
+    width: 100%;
+}
+
+#footer_img img {
+    width: 70px;
+    height: 70px;
+    
+}
+#footer_icon img{
+    height: 20px;
+    width: 20px;
+    filter: invert();
+    
+}
+
+.three td{
+    border: none;
+    color: white;
+}
+
+
+.four td{
+    border: none;
+    color: white;
+}
