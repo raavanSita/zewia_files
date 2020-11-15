@@ -1,0 +1,101 @@
+body{
+  overflow-x: hidden;
+}
+.navbar {
+  margin-bottom: 20px;
+}
+nav{
+  background-color: rgb(53, 82, 82, 0.3);
+}
+#content {
+    /* The image used */
+    background-image: url(img/pexels-pixabay-373076.jpg);
+
+    /* Set a specific height */
+    min-height: 500px; 
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+#content blockquote {
+  position: absolute;
+  top: 17%;
+  right: 15%;
+  background-color: rgba(51, 34, 34, 0.1);
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+ 
+}
+
+#content .base{
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+ 
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(110, 132, 255);
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+h1{
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+
+
+.blue{
+  color: rgb(55, 55, 182);
+  font-weight: 900;
+}
+
+.img2 img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 100% 100%;
+}
+
+.img3{
+  background-image: url(img/pexels-christina-morillo-1181352.jpg);
+  width:100% ;
+  height: 300px;
+ background-repeat: no-repeat;
+ background-color: rgb(247, 175, 136);
+  
+
+}
+
+.img4 img{
+ width: 90%;
+ height: 90%;
+  object-fit:contain;
+  
+}
+
+li{
+  font-size: 3vw;
+  margin-top:10px;
+  
+}
+
+#footer_icon img{
+  
+  height: 50px;
+  width: 50px;
+  filter: invert();
+  
+}
