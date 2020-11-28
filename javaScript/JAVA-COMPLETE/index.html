@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>JavaScript</title>
+</head>
+
+<body>
+    <!-- common nav -->
+    <nav>
+        <div class="navbar fixed-navbar text-white bg-dark">
+            <h1>JavaScript</h1>
+        </div>
+    </nav>
+
+
+    <div>
+        <hr class="border-dark border ">
+        <h1>QUESION 1</h1>
+    </div>
+
+
+    <!-- q1 -->
+
+    <div class="container-fluid">
+        <div class="text-center">
+            <h1 class="display-2"><u>Day</u> <u> Date and Time</u></h1>
+        </div>
+    </div>
+    <div class="container mt-5 bg-light">
+        <div class="text-center">
+            <h5 class="display-4 d-inline-flex">
+                TODAY IS : <p id="day"></p>
+            </h5>
+        </div>
+        <div class="text-center">
+            <h5 class="display-4 d-inline-flex">CURRENT TIME IS : <p id="hr"></p> : <p id="min"> </p>
+            </h5>
+        </div>
+    </div>
+    <div>
+        <hr class="border-dark border ">
+        <h1>QUESION 2</h1>
+    </div>
+    <!-- q2
+     -->
+
+
+    <div class="container-fluid bg-info">
+        <div class="container m-5">
+            <h1 class="text-center">
+                Sunday Being 1st Of Jan Between 2014 and 2050
+            </h1>
+        </div>
+
+        <button class="btn btn-lg btn-success" onclick="alt()"> click here</button>
+    </div>
+    <h1 id="ans"></h1>
+
+
+    <!-- 
+        q3
+     -->
+
+    <div>
+        <hr class="border-dark border ">
+        <h1>QUESION 3</h1>
+    </div>
+
+    <div class="container-fluid bg-warning mt-5">
+        <h1>
+            ENTER A STRING-:
+        </h1>
+        <input class="form-control" type="text" placeholder="Enter anything" name="" id="upperInp">
+        <input type="submit" value="CHECK" class="form-control btn btn-danger" name="" onclick="upperChk()" id="">
+
+        <p id="upperDsply"></p>
+    </div>
+
+
+
+    <!-- url cker -->
+
+    <div>
+        <hr class="border-dark border ">
+        <h1>QUESION 4</h1>
+    </div>
+
+    <div class="container-fluid jumbotron">
+        <h1>URL checker</h1>
+
+        <input class="form-control" type="text" placeholder="Enter anything" name="" id="urlInp">
+        <input type="submit" value="CHECK" class="form-control btn btn-danger" name="" onclick="urlChk()" id="">
+
+    </div>
+
+
+    <!-- SAMLE HTML -->
+
+    <div>
+        <hr class="border-dark border ">
+        <h1>QUESION 5</h1>
+    </div>
+
+    <div class="container-fluid bg-light mt-5">
+        <h1>click to change style of html code</h1>
+    </div>
+    <div id="main">
+
+        <p id='text'>JavaScript Exercises - w3resource</p>
+        <div>
+            <button id="jsstyle" onclick="js_style()">Style</button>
+        </div>
+
+    </div>
+
+
+    <div>
+        <hr class="border-dark border ">
+        <h1>QUESION 6</h1>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">DROPDOWN-REMOVE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="row" id="dwn1">
+                            <a class="dropdown-item col-4 col-md-8" href="#">Element 1</a><button onclick="dwn1()"
+                                class="btn btn-sm btn-danger col-1 col-md-3"><img
+                                    src="https://img.icons8.com/material-rounded/24/000000/filled-trash.png" /></button>
+                        </div>
+                        <div class="row" id="dwn2">
+                            <a class="dropdown-item col-4 col-md-8" href="#">Element 2</a><button onclick="dwn2()"
+                                class="btn btn-sm btn-danger  col-1 col-md-3"><img
+                                    src="https://img.icons8.com/material-rounded/24/000000/filled-trash.png" /></button>
+                        </div>
+
+                        <div class="row" id="dwn3">
+                            <a class="dropdown-item col-4 col-md-8" href="#">Elememnt 3</a><button onclick="dwn3()"
+                                class="btn btn-sm  btn-danger col-1 col-md-3"><img
+                                    src="https://img.icons8.com/material-rounded/24/000000/filled-trash.png" /></button>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <div>
+        <hr class="border-dark border ">
+        <h1>QUESION 7</h1>
+    </div>
+
+    <div class="container">
+        <p id="para"> Lorem ipsum dolor sit amet <b class="bold">consectetur, adipisicing elit.</b> Omnis culpa earum
+            delectus. <b>Similique</b> repudiandae
+            optio, dolorem quasi eos qui quae harum reprehenderit porro molestiae quod? Iusto laudantium totam libero
+            quos maiores aliquam officia <b>saepe quisquam quod voluptatem.</b> molestiae esse voluptate veniam qui
+            incidunt vero pariatur quasi modi vel,
+            <b>accusamus quae natus </b> eius dicta velit. Repellat inventore vero earum
+            consequuntur facere! Itaque quod at doloremque, similique facere ex, maxime ipsam tenetur iusto sequi
+            deleniti ullam, <b>sint beatae necessitatibus</b> optio quae ipsa animi? accusamus quae natus <b>accusamus
+                quae natus </b> alias dignissimos
+            consectetur aspernatur? Neque nesciunt recusandae vel iste, <b>nihil ullam.</b> Ratione at molestias tempora
+            deserunt esse.</p>
+    </div>
+    <p><a onmouseover="high()" onmouseout="return_normal()" href="">Mouse over here to find bold words</a></p>
+    <p id="e"></p>
+
+    <!-- q8 -->
+
+    <div>
+        <hr class="border-dark border ">
+        <h1>QUESION 8</h1>
+    </div>
+
+
+    <div class="container-fluid bg-secondary">
+        <button onclick="read()" class="btn btn-info btn-sm">Books Info</button>
+        <p id="reading" class="text-light">
+
+        </p>
+
+    </div>
+    <!-- q9 -->
+    <div>
+        <hr class="border-dark border ">
+        <h1>QUESION 9</h1>
+    </div>
+
+    <div class="container-fluid bg-light">
+        <div class="container">
+            <form action="">
+                <div class="row justify-content-between">
+                    <div class="form-group col-4">
+                        <input type="text" class="form-control" placeholder="ENTER FIRST TEXT" name="" id="txt1">
+                    </div>
+                    <div class="form-group col-4">
+                        <input type="text" class="form-control" placeholder="ENTER SECOND TEXT" name="" id="txt2">
+                    </div>
+                </div>
+                <BTN onclick="crossChk()" class="btn btn-success btn-block text-center">Click here to Cross check</BTN>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- q10 -->
+    <div>
+        <hr class="border-dark border ">
+        <h1>QUESION 10</h1>
+    </div>
+
+    <div class="container-fluid">
+        
+        <table class="table">
+            <thead>
+                
+                <th>Name</th>
+                <th></th>
+                <th>Mark</th>
+                <th></th>
+                <th>Grade</th>
+        
+            </thead>
+            <tbody id="td">
+               
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container bg-light">
+        <h1>ENTER NAME AND MARK TO KNOW YOUR GRADE</h1>
+        <div class="container">
+            <form action="">
+                <div class="row justify-content-start">
+                    <div class="form-group col-2">
+                        <input type="text" class="form-control" placeholder="ENTER NAME" name="" id="KEY">
+                    </div>
+                    <div class="form-group col-2">
+                        <input type="number" class="form-control" placeholder="ENTER MARK" name="" id="VAL">
+                    </div>
+                </div>
+                <BTN onclick="tab()" class="btn btn-success btn-sm text-center">submit</BTN>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
